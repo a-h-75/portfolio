@@ -1,0 +1,35 @@
+@mixin animation(
+  $name,
+  $duration: 1s,
+  $timing-function: ease,
+  $delay: 0s,
+  $iteration-count: 1,
+  $direction: normal,
+  $fill-mode: forwards,
+){
+  animation: {
+    name: $name;
+    duration: $duration;
+    timing-function: $timing-function;
+    delay: $delay;
+    iteration-count: $iteration-count;
+    direction: $direction;
+    fill-mode: $fill-mode;
+  }
+}
+
+@mixin background(
+  $background-image,
+  $background-repeat: no-repeat,
+  $background-position: center,
+  $background-size: cover,
+  $width: 100%,
+){
+  background: {
+    background-image: $background-image;
+    background-repeat: $background-repeat;
+    background-position: $background-position;
+    background-size: $background-size;
+    width: $width;
+  }
+}
