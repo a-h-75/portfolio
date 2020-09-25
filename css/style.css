@@ -2,7 +2,6 @@
 
 body {
 font-family: serif;
-background-image: url(../image/b001.gif);
 }
 
 .top{
@@ -65,13 +64,15 @@ margin: 0px auto 0px auto;
 
 .flex {
 display: flex;
+justify-content: center;
 }
 
 .profile_img {
-width: 200px;
-height: 200px;
-background-image: url(../image/profile.jpg);
+width: 80px;
+height: 80px;
 border-radius: 50%;
+background-image: url(../img/profile-img01.jpg);
+background-size: cover;
 }
 
 .profile_txt {
